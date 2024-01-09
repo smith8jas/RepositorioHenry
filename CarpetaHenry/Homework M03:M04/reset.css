@@ -1,0 +1,87 @@
+/* Reset.css */
+
+/* Box-sizing border-box for all elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remove default margin and padding for some elements */
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  figure,
+  dl,
+  dd,
+  ul,
+  ol,
+  li,
+  fieldset,
+  legend,
+  textarea,
+  pre,
+  iframe,
+  hr,
+  address {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set default font size and line height */
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Remove list styles (bullets/numbers) */
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  /* Remove hyperlink text decoration */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Remove text input and textarea default border */
+  input,
+  button,
+  textarea {
+    border: none;
+    outline: none;
+  }
+  
+  /* Standardize form elements */
+  button,
+  input,
+  select,
+  textarea {
+    font-family: inherit;
+    font-size: 100%;
+  }
+  
+  /* Remove inner spacing in table cells */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Reset image border and vertical-align */
+  img {
+    border: none;
+    vertical-align: middle;
+  }
+  
+  /* Reset box model for tables */
+  th,
+  td {
+    padding: 0;
+  }

@@ -3,22 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1/0">
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <title>My First Web Page</title>
     </head>
 
     <body>
 
-        <header>
+        <header id="header-title">
             <h1>My Web First Page</h1>
         </header>
 
         <main>
             <section>
-                <div>
+                <div class="introduction">
                     <p>My name is Jason Smith</p>
                 </div>
                 
-                <div>
+                <div class="favorite-things">
                     <p>My Favorite Things To Do Are:</p>
                     <ul>
                         <li>Play Soccer</li>
@@ -26,18 +28,22 @@
                         <li>Hang Out With Friends</li>
                     </ul>
                 </div>
-                <div>
+                <div class="favorite-art">
                     My favorite type of art is abstract.
-                    <img src="./abstractgreen.jpeg"/>
+                    <div >    
+                        <img src="./abstractgreen.jpeg" class="image" />
+                    </div>    
                 </div>
             </section>
         </main>
 
-        <footer>
+        <footer class="footer">
             <p>Follow Me on Social Media!</p>
+        <div class="socials">
             <a href="">Instagram</a>
             <a href="">Facebook</a>
             <a href="">Twitter</a>
+        </div>
         </footer>
         
 
